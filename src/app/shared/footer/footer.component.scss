@@ -1,0 +1,49 @@
+.ct-footer{
+   background-color:#FAF6F3; 
+   padding-top:30px;
+}
+.divider{
+    margin-top: 38px;
+    height: 2px;
+    background: green;
+   
+}
+.m1{
+    margin-left: 11px;
+}
+.Let-text{
+    font-size: 26px;
+    font-weight: bold;
+    color: black;
+}
+.row{
+    margin-left:-30px !important;
+}
+.p1{
+    padding: 10px 125px 0px 125px;
+}
+
+
+/* enable absolute positioning */
+
+.input-box{
+   
+    padding: 0px 7px 10px 12px
+}
+.grp-input{
+    padding: 10px 30px;
+}
+.inner-addon{ border: 1px solid black;
+    transform: skew(-10deg);}
+
+@media screen and (max-width:992px)
+{
+    .Let-text{font-size:20px}
+    .cat-img{width:40px}
+}
+@media screen and (max-width:768px)
+{
+    .Let-text{font-size:17px}
+    .cat-img{width:30px}
+    .p1{padding: 10px 75px 0px 75px;}
+}
